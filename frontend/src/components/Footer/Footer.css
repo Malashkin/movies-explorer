@@ -1,0 +1,78 @@
+.footer {
+  margin: 79px 70px 0;
+}
+
+.footer__heading {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #a0a0a0;
+  margin: 0 auto;
+  padding: 0 0 20px;
+  border-bottom: 1px solid;
+  text-align: center;
+}
+
+.footer__columns {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.footer__columns-author {
+  margin: 0 0 20px;
+  padding: 0;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.footer__columns-link {
+  margin: 0 20px 0 0;
+  padding: 0;
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.footer__columns-link:last-of-type {
+  margin: 0;
+}
+
+.footer__columns-link:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 1040px) {
+  .footer {
+    margin: 79px 30px 0;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .footer {
+    margin: 79px 10px 0;
+  }
+  .footer__columns {
+    display: grid;
+    justify-content: center;
+    grid-template-areas: "links" "author";
+  }
+  .footer__columns-links {
+    grid-area: links;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 18px;
+  }
+  .footer__columns-link {
+    margin-top: 12px;
+  }
+  .footer__columns-author {
+    grid-area: author;
+    margin-top: 30px;
+  }
+}

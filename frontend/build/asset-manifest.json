@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.eb79caee.css",
+    "main.js": "/static/js/main.df5b17bf.js",
+    "static/js/787.b701888c.chunk.js": "/static/js/787.b701888c.chunk.js",
+    "static/media/student_foto.jpg": "/static/media/student_foto.6e02ef9898d88864106e.jpg",
+    "static/media/Inter-Medium.woff?v=3.19": "/static/media/Inter-Medium.9053572c46aeb4b16caa.woff",
+    "static/media/Inter-Regular.woff?v=3.19": "/static/media/Inter-Regular.8c206db99195777c6769.woff",
+    "static/media/Inter-Medium.woff2?v=3.19": "/static/media/Inter-Medium.293fd13dbca5a3e450ef.woff2",
+    "static/media/Inter-Regular.woff2?v=3.19": "/static/media/Inter-Regular.c8ba52b05a9ef10f4758.woff2",
+    "static/media/header_logo.svg": "/static/media/header_logo.c0bb9d3b074d0dba7ce28fb086e828c3.svg",
+    "index.html": "/index.html",
+    "static/media/search__icon.svg": "/static/media/search__icon.ec2dbd5ffb739bbf5cbc051775b45245.svg",
+    "static/media/save_icon.svg": "/static/media/save_icon.6350092c46fff741ec82.svg",
+    "static/media/save_icon-active.svg": "/static/media/save_icon-active.d543f5560fc79150ae3c.svg",
+    "static/media/delete_icon.svg": "/static/media/delete_icon.082c57125db05afe7b95.svg",
+    "static/media/popup__icon-open.svg": "/static/media/popup__icon-open.08035af1e508cd8cfed5.svg",
+    "static/media/popup__icon-close.svg": "/static/media/popup__icon-close.80dfd5bd01b8fe0a895e.svg",
+    "static/media/find.svg": "/static/media/find.a061586bda63b752a3c30bec01fec3bf.svg",
+    "main.eb79caee.css.map": "/static/css/main.eb79caee.css.map",
+    "main.df5b17bf.js.map": "/static/js/main.df5b17bf.js.map",
+    "787.b701888c.chunk.js.map": "/static/js/787.b701888c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb79caee.css",
+    "static/js/main.df5b17bf.js"
+  ]
+}

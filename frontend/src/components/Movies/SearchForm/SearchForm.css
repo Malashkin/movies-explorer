@@ -1,0 +1,156 @@
+.searchform {
+  border-bottom: 1px solid #e8e8e8;
+  margin: 70px 0 0;
+  padding-bottom: 69px;
+}
+
+.searchform__container {
+  display: flex;
+  background-color: #f4f4f4;
+  border-radius: 9px;
+  height: 63px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.searchform__content {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  align-items: center;
+  border-right: 1px solid #e8e8e8;
+}
+
+.searchform__content:hover {
+  border: 1px solid #3456f3;
+  border-radius: 15px;
+}
+
+.searchform__line {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.searchform__input {
+  width: 90%;
+  margin: 0 10px 0;
+  padding: 0 0 0 0;
+  border: none;
+  background-color: #f4f4f4;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  outline: 0;
+  outline-offset: 0;
+}
+
+.searchform__icon {
+  height: 22px;
+  width: 22px;
+  margin: 0 0 0 25px;
+}
+
+.searchform__button {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: 0;
+  padding: 3px 30px 0 0;
+}
+
+.searchform__button:hover {
+  opacity: 0.7;
+}
+
+.searchform__error {
+  display: none;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #ee3465;
+  text-align: center;
+  margin: 20px 0 0;
+  padding: 10px;
+}
+
+.searchform__error_active {
+  display: block;
+}
+
+.filter {
+  display: flex;
+  margin: 0 30px 0 29px;
+}
+
+.filter__checkbox {
+  appearance: none;
+  height: 20px;
+  width: 36px;
+  border-radius: 1em;
+  box-shadow: inset -1em 0px 0px 0px #f4f4f4;
+  background-color: white;
+  border: 1px solid #2be080;
+  outline: none;
+  transition: 0.2s;
+  cursor: pointer;
+  margin-right: 16px;
+}
+
+.filter__checkbox:checked {
+  box-shadow: inset 1em 0px 0px 0px #2be080;
+  border: 1px solid #2be080;
+}
+
+.filter__checkbox:focus {
+  outline-width: 0;
+}
+
+.filter__text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1040px) {
+  .searchform {
+    margin: 50px 15px 0;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .searchform {
+    margin: 80px auto 0;
+    padding-bottom: 109px;
+    min-width: 290px;
+  }
+  .searchform__content {
+    border: none;
+  }
+  .searchform__container {
+    flex-direction: column;
+    min-height: 70px;
+  }
+
+  .searchform__line {
+    display: block;
+  }
+  .searchform__input {
+    margin: 0;
+    padding: 25px 0;
+    text-align: start;
+  }
+  .searchform__button {
+    padding: 0;
+  }
+
+  .searchform__icon {
+    display: none;
+  }
+  .filter {
+    margin: 45px;
+  }
+}

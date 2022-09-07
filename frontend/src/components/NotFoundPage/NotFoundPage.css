@@ -1,0 +1,37 @@
+.notfoundpage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30% auto 0;
+}
+
+.notfoundpage__title {
+  font-weight: 400;
+  font-size: 140px;
+  line-height: 169px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.notfoundpage__subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.notfoundpage__button {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+  text-align: center;
+  color: #3456f3;
+  background-color: #f8f8f8;
+  margin: 184px auto 0;
+  border: none;
+  cursor: pointer;
+}

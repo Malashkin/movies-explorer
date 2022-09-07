@@ -1,0 +1,6 @@
+.movie__button-delete {
+  background-image: url(../../../images/delete_icon.svg);
+}
+.movie__button-delete:hover {
+  opacity: 0.5;
+}

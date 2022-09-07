@@ -1,0 +1,39 @@
+.nav {
+  margin: 0 auto 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  width: 96px;
+  margin: 0 10px 0 0;
+  padding: 10px 10px;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  background-color: #e8e8e8;
+  border-radius: 10px;
+
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  box-sizing: content-box;
+}
+
+.nav__link:hover {
+  opacity: 0.7;
+}
+
+.nav__link:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 540px) {
+  .nav {
+    margin: 0 17px 17px;
+  }
+  .nav__link {
+    font-size: 10px;
+    line-height: 16px;
+  }
+}

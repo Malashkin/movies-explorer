@@ -1,0 +1,152 @@
+.aboutme {
+  margin: 110px 70px 110px;
+}
+
+.aboutme__title {
+  border-bottom: 1px solid black;
+  padding: 0 0 23px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: -0.04em;
+}
+
+.student {
+  display: grid;
+  grid-template-areas:
+    "name foto"
+    "about foto"
+    "description foto"
+    "links foto";
+  margin: 66px 0 0;
+}
+
+.student__name {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 58px;
+  letter-spacing: -0.04em;
+  margin: 0;
+  padding: 0;
+  grid-area: name;
+}
+
+.student__about {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  margin: 18px 0 0;
+  padding: 0;
+  grid-area: about;
+}
+
+.student__description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+  margin: 26px 30px 0 0;
+  padding: 0;
+  max-width: 600px;
+  grid-area: description;
+  text-align: justify;
+  max-width: 660px;
+}
+
+.student__nav {
+  display: flex;
+  justify-content: left;
+  grid-area: links;
+}
+
+.student__nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+  margin: 0 20px 0 0;
+  padding: 0;
+  color: #000000;
+  align-self: end;
+}
+
+.student__nav-link:hover {
+  opacity: 0.7;
+}
+
+.student__image {
+  max-width: 270px;
+  max-height: 357px;
+  border-radius: 10px;
+  grid-area: foto;
+  justify-self: end;
+}
+
+@media screen and (max-width: 1040px) {
+  .aboutme {
+    margin: 90px 50px;
+  }
+  .student__name {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .student__description {
+    margin-right: 30px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .student__about {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .student__nav {
+    margin-top: 40px;
+  }
+  .student__image {
+    width: 255px;
+    height: 301px;
+  }
+  .portfolio {
+    padding-bottom: 90px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .aboutme {
+    margin: 70px 18px;
+  }
+  .aboutme__title {
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 28px;
+  }
+  .student {
+    margin: 60px 0 0;
+    grid-template-areas: "foto" "name" "about" "description" "links";
+  }
+  .student__image {
+    min-height: 352px;
+    min-width: 292px;
+    margin: 0 auto;
+  }
+  .student__name {
+    margin: 40px 0 0;
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .student__about {
+    margin: 20px 0 0;
+    font-size: 11px;
+    line-height: 16px;
+  }
+  .student__description {
+    margin: 20px 0 0;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: justify;
+  }
+  .student__nav-link {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

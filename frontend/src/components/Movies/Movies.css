@@ -1,0 +1,9 @@
+.movies {
+  margin: 0 70px;
+  display: grid;
+}
+@media screen and (max-width: 1040px) {
+  .movies {
+    margin: 0 auto;
+  }
+}

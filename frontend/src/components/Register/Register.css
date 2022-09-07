@@ -1,0 +1,11 @@
+.signform__server-error {
+  font-weight: 400;
+  font-size: 13px;
+  text-align: center;
+  color: #ee3465;
+  margin: 100px auto -100px;
+}
+
+.signform__server-error-register {
+  margin: 0 0 -15px;
+}

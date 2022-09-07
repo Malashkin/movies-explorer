@@ -1,0 +1,27 @@
+.protectedRoute {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.protectedRoute__unauthorizated {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #ee3465;
+  margin: 100px auto 0;
+  text-align: center;
+}
+
+.protectedRoute__button {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+  text-align: center;
+  color: #3456f3;
+  background-color: #f8f8f8;
+  margin: 184px auto 200px;
+  border: none;
+  cursor: pointer;
+}
